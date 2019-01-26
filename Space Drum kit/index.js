@@ -1,6 +1,6 @@
 
 
-// set in CSS
+
     document.querySelector(".w").style.backgroundImage="url('images/crash.png')";
     document.querySelector(".a").style.backgroundImage="url('images/kick.png')";
     document.querySelector(".s").style.backgroundImage="url('images/snare.png')";
