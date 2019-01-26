@@ -10,9 +10,9 @@
     document.querySelector(".l").style.backgroundImage="url('images/tom4.png')";
 
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
-// Loppar igenom alla knappar för att använda eventlistener på alla kanappar. 
+
 for(var i = 0; i < numberOfDrumButtons; i++){
-// Använder Click event för att aktivera funktionen nedan. 
+
 document.querySelectorAll(".drum")[i].addEventListener("click",handleClick);
 
 
