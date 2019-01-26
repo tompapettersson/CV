@@ -8,7 +8,6 @@
     document.querySelector(".j").style.backgroundImage="url('images/tom2.png')";
     document.querySelector(".k").style.backgroundImage="url('images/tom3.png')";
     document.querySelector(".l").style.backgroundImage="url('images/tom4.png')";
-//
 
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 // Loppar igenom alla knappar för att använda eventlistener på alla kanappar. 
@@ -28,7 +27,7 @@ makeSound(buttonInnerHTML);
     
     }
 
-// lägger en addEventListener till tangentbordet.     
+  
 document.addEventListener("keypress", function(event){
 
 makeSound(event.key);
